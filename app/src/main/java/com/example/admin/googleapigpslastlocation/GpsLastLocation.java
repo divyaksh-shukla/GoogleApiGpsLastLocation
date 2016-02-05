@@ -28,8 +28,8 @@ public class GpsLastLocation extends ActionBarActivity implements ConnectionCall
     protected static final long FASTEST_UPDATE_INTERVAL = UPDATE_INTERVAL/2;
     protected static final float SMALLEST_DISPLACEMENT = 5;
     protected boolean mRequestingLocationUpdates;
-    private static final String MUMMY_PHONE = "9886757433";
-    private static final String PAPA_PHONE = "9845278348";
+    private static final String MUMMY_PHONE = "";
+    private static final String PAPA_PHONE = "";
     private static final String MAPS_URL = "I am here:\nhttp://maps.google.com/maps?q=";
 
     protected final static String REQUESTING_LOCATION_UPDATES_KEY = "requesting-location-updates-key";
